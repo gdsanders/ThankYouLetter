@@ -43,6 +43,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="fromLabel" destination="m3a-Lz-aRQ" id="9if-mH-7Cj"/>
+                        <outlet property="messageLabel" destination="U2P-pY-M2e" id="Lxa-PQ-nRl"/>
+                        <outlet property="toLabel" destination="Nb1-GE-zpU" id="6lG-cH-u70"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
